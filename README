@@ -1,0 +1,8 @@
+This tool is based on FUSE to collect the read and write requests
+you can choose the granularity to trace the I/O (MB is the default settings)
+
+usage:
+
+/fpdd <the underlying file system directory path> <your mount directory>
+
+all information is in the log
